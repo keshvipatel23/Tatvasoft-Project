@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.link1{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+}
+.link1 h4{
+  width: 80px;
+  border-right: 1px solid black;
+  text-align: center;
+  margin-right: 15px;
+}
+h2{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 32px;
+  padding-bottom: 10px;
+}
+.prsnl{
+  padding: 0px 7.5% 20px 7.5%;
+}
+.prsnl hr{
+  margin: 20px 0;
+}
+.prsnl .prsnlinfo{
+  font-weight: 700;
+  font-size: 20px;
+}
+.light{
+  color: #838383;
+}
+.info{
+  display: flex;
+  width: 100%;
+  padding: 0 7.5%;
+}
+.fname,.lname{
+  width: 50%;
+  margin-right: 15px;
+  /* background-color: blue; */
+}
+.lname{
+  margin-right: 0;
+}
+.fname p, .lname p{
+  margin-bottom: 15px;
+}
+.fname input,.lname input{
+  width: 100%;
+  height: 40px;
+}
+.mail{
+  width: 100%;
+  padding: 20px 7.5%;
+}
+.mail p{
+  margin-bottom: 15px;
+}
+.mail input{
+  width: 100%;
+  height: 40px;
+}
+.login{
+  width: 100%;
+  padding: 50px 7.5%;
+}
+.login h2{
+  font-size: 20px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.login hr{
+  margin-bottom: 20px;
+}
+.pass{
+  display: flex;
+  width: 100%;
+}
+.pass p{
+  margin-bottom: 15px;
+}
+.p1,.p2{
+  width: 50%;
+  margin-right: 15px;
+}
+.p2{
+  margin-right: 0;
+}
+.p1 input, .p2 input{
+  width: 100%;
+  height: 40px;
+}
+.btn{
+  width: 100%;
+  padding: 0 7.5% 20px 7.5%;
+}
+.btn button{
+  width: 136px;
+  height: 40px;
+  background-color: rgb(241, 77, 84);
+  color: #fff;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 0;
+}
