@@ -1,0 +1,76 @@
+.link1 p{
+    color: rgb(241, 77, 84);
+    margin-top: 20px;
+}
+.cust{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    width: 100%;
+}
+.new h3,.old h3{
+    font-size: 20px;
+    color: #414141;
+    padding-bottom: 20px;
+}
+hr{
+    margin-bottom: 20px;
+}
+.new{
+    padding: 0px 70px;
+}
+.old{
+    /* margin-left: 20px; */
+    padding-right: 70px;
+}
+.new p,.old h5{
+    font-weight: 400;
+    color:#838383;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+.new ul{
+    font-size: 15px;
+    color: #212121;
+    margin-left: 18px;
+}
+.new ul li{
+    padding-bottom: 10px;
+}
+.new button{
+    margin-top: 130px;
+    margin-bottom: 50px;
+    width: 220px;
+    height: 45px;
+    border: 0;
+    padding: 5px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 17px;
+    background-color: rgb(241, 77, 84);
+}
+.mail1{
+    /* margin: 0; */
+    padding: 0;
+    width: 75%;
+    margin-bottom: 15px;
+}
+.p11 p{
+    margin-bottom: 15px;
+}
+.p11{
+    width: 75%;
+    margin-bottom: 50px;
+}
+.btn1 button{
+    width: 100px;
+    height: 45px;
+    background-color: rgb(241, 77, 84);
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 17px;
+    margin-bottom: 50px;
+}
+.txt1{
+    width: 350px;
+}

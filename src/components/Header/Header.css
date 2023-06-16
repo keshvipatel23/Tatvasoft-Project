@@ -1,60 +1,201 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-.container{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    margin: 20px 0;
-    padding: 0 5%;
-}
-.container .items{
-    display: flex;
-    align-items: center;
-}
-.container .items ul{
-    display: flex;
-    list-style: none;
-    /* width: 200px; */
-    justify-content: space-between;
-}
-.items ul li{
-    width: 100px;
-    text-align: center;
-}
-.items ul li.dev{
-    /* width: 70px; */
-    border-right: 1px solid black;
-    text-align: center;
-}
-.items button{
-    cursor: pointer;
+.head1{
+    width: 83cvh;
+    padding: 0px;
+    height: 172px;
 }
 
-/* Search Division */
+.img1{
+    padding: 10px;
+}
 
-.search{
-    width: 100%;
-    background-color: rgb(241, 241, 241);
-    padding: 10px 0;
+.head3{
+    height: 70px;
     display: flex;
+    column-gap: 10px;
+    position: relative;
+}
+.search-results-open .search-overlay{
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+.search-overlay{display: none;}
+.head5{
+    background-color: whitesmoke;
+    height: 80px;
     justify-content: center;
+    text-align: center;
+    padding-top: 0px;
 }
-.search input{
-    width: 422px;
-    height: 40px;
-    margin-right: 10px;
-    color: rgb(33, 33, 33);
-    padding: 0 10px;
+
+.head2{
+    display: flex;
+    background-color: white;
+    column-gap: 0px;
+    flex-wrap: wrap;
+    margin-inline: 60px;
 }
-.search button{
-    width: 100px;
-    margin-right: 10px;
-    border: none;
-    border-radius: 5px;
-    color :#fff;
-    cursor: pointer;
-    /* height: 40px; */
+
+.head4{
+    margin-top: 15px;
+    margin-right: 15px;
 }
+
+.hea{
+    line-height: 10px;
+    padding-left: 0px;
+    margin-left: 0px;
+
+}
+
+.he{
+    padding-top: 5px;    
+}
+.css-4pdmu4-MuiBreadcrumbs-ol{
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
+}
+.css-63vwl1-MuiTypography-root-MuiBreadcrumbs-root{
+    padding-top: 30px;
+    
+}
+
+.h-container{    
+    height:92px;
+}
+.Button1{
+    height: 30px;
+}
+
+.h-container-wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 1%;
+}
+
+.h-tt-logo{
+    width: 60%;
+}
+
+.h-container-rght{
+    display: flex;
+    flex-direction: row;
+    width: 25%;
+    justify-content: space-between;
+}
+
+.h-searchbar{
+    height: 80px;
+    background-color: #F4F4F4;
+}
+
+    .h-searchbar-center{
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+        width: 50%;
+        height: 50%;
+        justify-content: space-evenly;
+        padding-top: 20px;
+    }
+
+        .h-txtfield{
+            width: 60%;
+            display: flex;
+            flex-direction: column;
+        }
+        .h-txtfield .MuiOutlinedInput-input{
+            padding: 8px 10px 8px 15px;
+        }
+        .h-txtfield .MuiInputBase-formControl{
+            width: auto;
+        }
+
+
+            .h-product-list{
+                height: auto;
+                border-radius: 4px;
+            }
+                .h-no-prod, .h-related-product-list{
+                    background-color: #FFFFFF;    
+                    box-shadow: 0.5px 0.5px 4px 0.5px #838383;
+                    border-radius: 4px;
+                    z-index: 1;
+                }
+
+                    .h-no-prod .h-not-found{
+                        padding: 15px;
+                        margin: 0;
+                    }
+
+                    .h-product-list-inner{
+                        width: 100%;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                    }
+                        .h-inner-lft{
+                            width: 75%;
+                        }
+                        .h-inner-rght{
+                            width: 25%;
+                            padding-right: 5px;
+                        }
+
+
+ .h-product-list .MuiList-padding {  padding: 0;  }
+
+.h-product-list .MuiListItem-padding {  padding: 8px 16px;  }
+
+
+.h-product-list .MuiListItem-padding p{
+    color: #838383;
+    margin: 5px 0 0 0;
+    display: -webkit-box;       
+    -webkit-box-orient: vertical;
+
+    -webkit-line-clamp: 2; 
+
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+}
+
+.h-product-list ul{
+    width: 100%; 
+    max-height: 365px; 
+    overflow: auto; 
+}
+
+.h-inner-rght span, .h-inner-rght button{
+    float: right; 
+}
+.h-inner-rght button{
+    padding: 4px 0 0 0;
+}
+
+    ul::-webkit-scrollbar{
+        width: 7px;
+        
+    }
+    ul::-webkit-scrollbar-thumb{
+        background-color: #e04d54;
+    }
+    ul::-webkit-scrollbar-thumb:hover{
+        background-color: #f14d54;
+    }
+    ul::-webkit-scrollbar-track{
+        box-shadow: inset 0 0 10px -7px;
+        border-radius: 5px;
+    }
+    ul::-webkit-scrollbar,ul::-webkit-scrollbar-thumb{
+        border-radius: 5px;
+    }

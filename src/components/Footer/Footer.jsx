@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../Image/Logo/tatva.png";
+import Logo from "../../assets/Image/tatva.png";
 import "./Footer.css";
 
 function Footer(){

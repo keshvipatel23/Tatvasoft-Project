@@ -1,0 +1,172 @@
+
+.products{
+    margin: 20px auto;
+    width: 95%;
+    display: flex;
+    /* justify-content: flex-start; */
+    /* background-color: orange; */
+    flex-wrap: wrap;
+    border-radius: 5px;
+}
+
+.productWrapper .MuiTypography-h1 {
+    color: #414141;
+    position: relative;
+    font-size: 36px;
+    text-align: center;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 45px;
+    letter-spacing: 0px;
+    padding-bottom: 18px;
+}
+.productWrapper .MuiTypography-h1:after {
+    left: 50%;
+    width: 165px;
+    bottom: 0;
+    height: 2px;
+    content: '';
+    position: absolute;
+    transform: translateX(-50%);
+    background-color: #f14d54;
+}
+
+.productWrapper .btn-wrapper {
+    width: 100%;
+    display: flex;
+    text-align: right;
+    margin-bottom: 20px;
+    justify-content: flex-end;
+}
+.productWrapper .btn-wrapper .MuiFormControl-fullWidth {
+    max-width: 300px;
+}
+.productWrapper .btn-wrapper .MuiOutlinedInput-root {
+    position: relative;
+    border-radius: 6px;
+}
+.productWrapper .btn-wrapper .MuiInputBase-input.small {
+    border: 1px solid #d5d5d5;
+    height: 15px;
+    width:500px;
+    line-height: 40px;
+    border-radius: 0;
+} 
+.productWrapper .btn-wrapper .btn {
+    height: 40px;
+    padding: 0 10px;
+    font-size: 14px;
+    min-width: 100px;
+    line-height: 40px;
+    margin-left: 10px;
+}
+.MuiTableContainer-root {
+    width: 100%;
+    overflow-x: auto;
+}
+.MuiTable-root {
+    width: 100%;
+    display: table;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+.MuiTableHead-root {
+    display: table-header-group;
+}
+.MuiTableRow-root {
+    color: inherit;
+    display: table-row;
+    outline: 0;
+    vertical-align: middle;
+}
+.MuiTableCell-head {
+    color: #212121;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+.MuiTableBody-root {
+    display: table-row-group;
+}
+.productWrapper .MuiTablePagination-root {
+    width: 100%;
+    margin-inline-end: auto;
+    margin-top: 20px;
+}
+.productWrapper  .MuiTablePagination-toolbar {
+    padding-right: 20px;
+}
+/* .MuiTablePagination-spacer {
+    flex: 1 1 100%;
+} */
+.MuiTablePagination-caption {
+    flex-shrink: 0;
+}
+.MuiTablePagination-input {
+    color: inherit;
+    font-size: inherit;
+    flex-shrink: 0;
+
+}
+.css-quj9j6-MuiTable-root{
+    border: none;
+}
+
+.css-pdct74-MuiTablePagination-selectLabel {
+    margin-top: auto;
+}
+.css-levciy-MuiTablePagination-displayedRows {
+    margin: auto;
+}
+.MuiTablePagination-selectRoot {
+    margin-left: 8px;
+    margin-right: 32px;
+}
+.productWrapper .MuiTablePagination-root .MuiTablePagination-toolbar .MuiSelect-selectMenu {
+    height: 20px;
+    display: flex;
+    align-items: center;
+    padding-right: 25px !important;
+}
+.productWrapper .MuiTablePagination-root .MuiTablePagination-toolbar .MuiSelect-nativeInput {
+    top: 0;
+}
+.MuiSelect-icon {
+    top: calc(50% - 12px);
+    color: rgba(0, 0, 0, 0.54);
+    right: 0;
+    position: absolute;
+    pointer-events: none;
+}
+.MuiTablePagination-actions {
+    flex-shrink: 0;
+    margin-left: 20px;
+}
+.MuiIconButton-root.Mui-disabled {
+    color: rgba(0, 0, 0, 0.26);
+    background-color: transparent;
+}
+.productWrapper .MuiTable-root .green-btn {
+    color: #80BF32;
+    border: 1px solid #80BF32;
+    height: 30px;
+    width: 100px;
+    font-size: 14px;
+    min-width: 50px;
+    line-height: 30px;
+    text-transform: capitalize;
+    background-color: transparent;
+}
+.productWrapper .MuiTable-root .pink-btn {
+    color: #f14d54;
+    border: 1px solid #f14d54;
+    height: 30px;
+    width: 100px;
+    padding: 0 10px;
+    font-size: 14px;
+    min-width: 80px;
+    line-height: 30px;
+    margin-left: 10px;
+    border-radius: 4px;
+    background-color: transparent;
+}

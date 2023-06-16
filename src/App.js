@@ -1,23 +1,28 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 import './App.css';
-import ProductList from './pages/ProductList';
-import Register from './pages/Register';
-import Login from './pages/Login';
-import EditProduct from './pages/EditProduct';
-import Cart from './pages/Cart';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import AppRoutes from './components/MainNavigation';
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
+import { Provider } from 'react-redux';
+import store from "./state/Store";
 
 function App() {
   return (
     <>
       <BrowserRouter>
-      <Routes>
-        <Route path='/login' Component={Login}/>
-        <Route path='/register' Component={Register}/>
-        <Route path='/product-list' Component={ProductList}/>
-        <Route path='/edit-product' Component={EditProduct}/>
-        <Route path='/cart' Component={Cart}/>
-        <Route path='/' Component={Login}/>
-      </Routes>
+        <Provider store={store}>
+          <ToastContainer className="toast"
+            autoClose="1000" />
+          <div>
+            <Header />
+            <main>
+              <AppRoutes />
+            </main>
+            <Footer />
+          </div>
+        </Provider>
       </BrowserRouter>
     </>
   );

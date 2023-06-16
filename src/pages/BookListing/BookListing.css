@@ -1,0 +1,64 @@
+MuiPagination-ul css-wjh20t-MuiPagination-ul{
+    justify-content: center;
+}
+ul,ol{
+    justify-content: center;
+}
+.products{
+    margin: 20px auto;
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 5px;
+}
+.card{
+    width: 350px;
+    /* height: 650px; */
+    border: 1px solid black;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 10px;
+    margin: 40px 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+.product-image{
+    width: 100%;
+    max-width: 400px;
+    height: 200px;
+    display: block;
+    object-fit: fill;
+}
+.product-name{
+    text-transform: uppercase;
+    margin: 10px 0;
+    
+}
+.product-price{
+    margin: 0;
+    padding-bottom: 20px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.product-add-button{
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: #f14d53;
+    width: 330px;
+    height: 50px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: block;
+    border: none;
+    
+}
+.product-desc{
+    height: 50px;
+    font-size: 20px;
+    overflow: hidden;
+    font-size: 16px;
+    text-overflow: ellipsis;
+}
